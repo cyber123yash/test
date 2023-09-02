@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        form{
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        lable,input,textarea{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Us / Have Any Question</h1>
+    <form action="connect.php" method="post">
+    <lable for="Full Name">Full Name:</lable>
+    <input type="text" id="fullName" placeholder="Enter Your Name" required name="fullName" >
+
+    <lable for="Phone Number">Phone Number:</lable>
+    <input type="text" id="phonenumber"  placeholder="Enter Your Phone Number" required name="phonenumber">
+    
+
+    <lable for="Email">Email:</lable>
+    <input type="text" id="email"  placeholder="Enter Your Email" required name="email">
+    
+    <lable for="Subject">Subject:</lable>
+    <input type="text" id="subject"  placeholder="Enter Your Subject" required name="subject1">
+
+    <lable for="Message">Message:</lable>
+    <textarea id="message"  placeholder="Enter Your Message" required></textarea name="message1">
+
+    <button type="Submit">SUBMIT</button>
+    
+</form>
+</body>
+</html>
